@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#app{
+    display: grid;
+    grid-template-areas: "head head head head"
+                         "main main main main"
+                         "main main main main"
+                         "main main main main"
+                         "main main main main"
+                         "ad ad ad ad";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px repeat(4, 1fr) 40px;
+}
+
+.headerBar{
+    grid-area: head;
+    background-color: #25363E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

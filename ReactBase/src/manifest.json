@@ -1,0 +1,13 @@
+{
+  "name": "Pair Cards",
+  "short_name": "Pair Cards",
+  "icons": [{
+    "src": "images/Logo.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#4481EB",
+  "theme_color": "#4481EB"
+}
